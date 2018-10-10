@@ -1,0 +1,27 @@
+body {
+    background: url('../assets/images/background.jpg') no-repeat center center fixed;
+    color: ivory;
+	background-position: left right top bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+.navbar {
+    background-image: linear-gradient(rgb(102, 62, 17), rgb(177, 153, 109)) !important;
+}
+
+a {
+	transition: all 1s;
+}
+
+a:hover {
+	transform: scale(1.1);
+}
